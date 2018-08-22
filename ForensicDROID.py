@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 
-#<Androick - OWASP Android Project : Forensic analysis helper>
+#<ForensicDROID - OWASP Android Project : Forensic analysis helper>
 #Copyright (C) <2013 - 2018>  <Translated for Spanish by Axel Vásquez>
 
 #This program is free software: you can redistribute it and/or modify
