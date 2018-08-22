@@ -25,23 +25,23 @@ Simplemente clonar el repositorio de github
 
 ## Modo de Uso
 	1) Mostrar mensaje de ayuda
-		./androick.py -h
+		./ForensicDROID.py -h
 
 	2) Mostrar Informacion
-		./androick.py -a
+		./ForensicDROID.py -a
 
 	3) seleccionar dispositivo a usar
-		./androick.py -D serial_number PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
-		./androick.py --device serial_number PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
+		./ForensicDROID.py -D serial_number PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
+		./ForensicDROID.py --device serial_number PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
 
 	4) buscar por nombre de paquete
-		./androick.py [-v] -f <Part of package name>
+		./ForensicDROID.py [-v] -f <Part of package name>
 
 	5) descargar todo lo necesario de la aplicacion
-		./androick.py [-v] -A PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
+		./ForensicDROID.py [-v] -A PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
 	
 	6) seleccionar solo lo necesario a extraer
-		./androick.py [-v] [-d --datas] [-s --sql] [-m --manifest] [-p --permissions] [-m --memory-dump]  [-l --logs] [--keyLogs="keywords"] PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
+		./ForensicDROID.py [-v] [-d --datas] [-s --sql] [-m --manifest] [-p --permissions] [-m --memory-dump]  [-l --logs] [--keyLogs="keywords"] PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
 
 	7) como usar la opcion  --keyLogs
 			--keyLogs="key1,key2,key3"
@@ -49,7 +49,7 @@ Simplemente clonar el repositorio de github
 			--keyLogs="key1_P1,key2_P1|key1_P2|key1_P3,key2_P3,key3_P3"
 		
 		Ejemplo :
-			./androick.py -l --keyLogs="antivirus,protection|music,licence" com.package.antivirus com.music.player
+			./ForensicDROID.py -l --keyLogs="antivirus,protection|music,licence" com.package.antivirus com.music.player
 	
 	/!\ La funcioon memory dump no funciona correctamente en builds recientes
 
